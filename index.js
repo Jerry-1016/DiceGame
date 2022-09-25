@@ -3,12 +3,12 @@ var player2 = prompt("Player 2 name:");
 
 
 var randomnum1 = Math.floor(Math.random()*6)+1 ;
-var randomnum1Img = "images/dice"+randomnum1+".png";
+var randomnum1Img = "dice"+randomnum1+".png";
 document.querySelector(".img1").setAttribute("src" ,randomnum1Img);
 
 
 var randomnum2 = Math.floor(Math.random()*6)+1 ;
-var randomnum2Img = "images/dice"+randomnum2+".png";
+var randomnum2Img = "dice"+randomnum2+".png";
 document.querySelector(".img2").setAttribute("src" ,randomnum2Img);
 
 if(randomnum1> randomnum2)
